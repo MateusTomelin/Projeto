@@ -1,0 +1,46 @@
+/* src/app/livro-lista/livro-lista.component.css */
+
+/* Definindo a largura da tabela para ocupar 100% do contêiner */
+.table-container {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  /* Adicionando bordas e espaçamento à tabela */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .table td ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .table td ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para os botões de exclusão */
+  .btn-excluir {
+    background-color: #dc3545; /* Cor de fundo vermelho */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .btn-excluir:hover {
+    background-color: #c82333; /* Cor de fundo vermelho escuro ao passar o mouse */
+  }
+  
